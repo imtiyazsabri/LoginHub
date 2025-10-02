@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+	<h3>Welcome <span th:text="${ModelName}"></span></h3>
+	
+	<a th:href="@{/logout}">Logout</a>
+</body>
+</html>
